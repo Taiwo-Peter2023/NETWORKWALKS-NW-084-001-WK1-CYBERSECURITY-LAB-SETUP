@@ -88,7 +88,7 @@ Activities performed:
 - Verified that VirtualBox launched successfully.
 - Prepared the environment for Kali Linux deployment.
 
-Screenshot: virtualbox_page
+Screenshot 1:  ![alt text](virtualbox_running.png)
 
 ### Step 2: Importing and Configuring Kali Linux
 
@@ -104,7 +104,8 @@ Activities performed:
 - Started the virtual machine.
 - Verified that Kali Linux booted successfully.
 
-Screenshot: `screenshots/02-kali-linux-import.png`
+Screenshot 2: `kali-linux running`
+![alt text](virtualbox_running-1.png)
 
 ### Step 3: Creating a Private NAT Network
 
@@ -126,7 +127,9 @@ NAT Network allows virtual machines connected to the same network to communicate
 
 This is particularly useful when building a cybersecurity lab that may later contain multiple virtual machines for testing and analysis.
 
-Screenshot: `screenshots/03-nat-network-configuration.png`
+Screenshot 3: `nat-network-configuration.png`
+
+![alt text](NAT_Network.png)
 
 ### Step 4: Configuring and Verifying Network Settings
 
@@ -155,7 +158,8 @@ Activities performed:
 - Verified interface status.
 - Inspected the default gateway and routing information.
 
-Screenshot: `screenshots/04-kali-network-configuration.png`
+Screenshot: kali-network-configuration.png`
+![alt text](kali-network.png)
 
 ### Step 5: Testing Network Connectivity
 
@@ -171,7 +175,8 @@ This sends four ICMP echo requests to Google's public DNS IP address.
 
 Successful replies indicate IP-level connectivity to the destination.
 
-Screenshot: `screenshots/05-network-connectivity-test.png`
+Screenshot 5: network-connectivity-test
+
 
 ### Step 6: Testing DNS Resolution
 
@@ -187,7 +192,7 @@ This checks whether the configured DNS resolver can resolve the specified domain
 
 Expected result: A successful response containing the resolved IP address or addresses for the domain.
 
-Screenshot: `screenshots/06-dns-resolution-test.png`
+Screenshot 6: dns-resolution-test
 
 ### Step 7: Creating a Virtual Machine Snapshot
 
@@ -204,7 +209,8 @@ Activities performed:
 
  `Kali-Linux-Clean-Lab-Setup`
 
-Screenshot: `screenshots/07-kali-vm-snapshot.png`
+Screenshot 7: kali-vm-snapshot
+
 
 ## Testing and Verification Summary
 
