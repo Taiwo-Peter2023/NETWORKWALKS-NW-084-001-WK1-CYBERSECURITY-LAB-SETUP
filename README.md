@@ -105,7 +105,7 @@ Activities performed:
 - Verified that Kali Linux booted successfully.
 
 Screenshot 2: `kali-linux running`
-![alt text](virtualbox_running-1.png)
+![alt text](kali_desktop_page.png)
 
 ### Step 3: Creating a Private NAT Network
 
