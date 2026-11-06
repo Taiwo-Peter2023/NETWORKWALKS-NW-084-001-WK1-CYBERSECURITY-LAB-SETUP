@@ -159,7 +159,7 @@ Activities performed:
 - Inspected the default gateway and routing information.
 
 Screenshot: kali-network-configuration.png`
-![alt text](kali-network.png)
+![alt text](kali-network-conf.png)
 
 ### Step 5: Testing Network Connectivity
 
@@ -176,7 +176,7 @@ This sends four ICMP echo requests to Google's public DNS IP address.
 Successful replies indicate IP-level connectivity to the destination.
 
 Screenshot 5: network-connectivity-test
-
+![alt text](ping-desktop.png)
 
 ### Step 6: Testing DNS Resolution
 
@@ -210,7 +210,7 @@ Activities performed:
  `Kali-Linux-Clean-Lab-Setup`
 
 Screenshot 7: kali-vm-snapshot
-
+![alt text](Snapshot_kali.png)
 
 ## Testing and Verification Summary
 
@@ -342,6 +342,6 @@ cybersecurity-pentesting-lab/
 │   ├── 05-network-connectivity-test.png
 │   ├── 06-dns-resolution-test.png
 │   └── 07-kali-vm-snapshot.png
-└── documentation/
-    └── project-notes.md
+└── extra-projects/
+    └── Lab-Result
 ```
